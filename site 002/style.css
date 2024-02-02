@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Arvo:ital,wght@1,400;1,700 & display=swap');
 
+@font-face {
+    font-family:'dafont';
+    src: url('../site001/fonts/Insanibc.ttf') format('opentype');
+    font-weight: normal;
+}
+:root {
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-dafont: 'dafont', 'cursive';
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +18,7 @@
 
 body {
     
-    font-family: 'Arvo', 'sans-serif';
+    font-family: var(--fonte-dafont);
 }
 
 body * {
